@@ -45,7 +45,7 @@ int Student::GetId()
 void Student::Print()
 {
 	fio.Print();
-	cout << ID <<" ";
+	cout << ID <<":";
 	for (int s : Marks)
 		cout << s << " ";
 	cout<<endl;

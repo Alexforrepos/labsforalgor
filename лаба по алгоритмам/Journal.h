@@ -1,6 +1,10 @@
 #pragma once
 #include "Student.h"
 
+enum class SortType
+{
+	Name,SName,FName,Id
+};
 
 class Journal
 {
@@ -11,7 +15,7 @@ public:
 	~Journal();
 
 	void AddStudent(Student* s);
-	void Sort();
+	void Sort(SortType type);
 	void Print();
 };
 
