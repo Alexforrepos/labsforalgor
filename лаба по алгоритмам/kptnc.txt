@@ -1,10 +1,10 @@
-zzzzz zaonn Don 1 33325
-bbbb zao Din 10 34555
-ccc hon Den 2 55555
-aaa gon Drn 9 44444
-eeeee fon Dan 3 34543
-a ein Dgn 8 43454
-h den Dvn 4 55555
-iiiii crn Dqn 7 54333
-kll ban Dsn 5 55555
-mnnn ain Dzn 6 43454
+1 Леха zaonn Don 1 3 3 3 2 5	
+2 Юрец zao Din 10 3 4 5 5 5
+5 ccc hon Den 2 5 5 5 5 5
+4 aaa gon Drn 9 4 4 4 4 4
+3 eeeee fon Dan 3 3 4 5 4 3
+6 a ein Dgn 8 4 3 4 5 4
+7 h den Dvn 4 5 5 5 5 5
+8 iiiii crn Dqn 7 5 4 3 3 3
+9 kll ban Dsn 5 5 5 5 5 5
+10 mnnn ain Dzn 6 4 3 4 5 4

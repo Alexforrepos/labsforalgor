@@ -3,8 +3,9 @@
 #include <vector>
 class Student
 {
+
 	FIO fio;
-	int ID;
+	int ID_student,ID_system;
 	vector<int> Marks;
 public:
 	Student();
@@ -12,11 +13,14 @@ public:
 	~Student();
 	
 	void SetFio(FIO fio);
-	void SetId(int ID);
+	void SetStudentId(int ID);
+	void SetSystemId(int ID);
 	void AddMark(int mark);
+
 
 	FIO GetFio();
 	int GetId();
+	int GetSId();
 
 	void Print();
 };

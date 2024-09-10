@@ -1,7 +1,7 @@
 #include "Student.h"
 
 Student::Student()
-	:fio(),ID(0),Marks()
+	:fio(),ID_student(0),Marks(),ID_system(0)
 {
 }
 
@@ -9,7 +9,7 @@ Student::Student(FIO fio, int ID)
 	:Student()
 {
 	this->fio = fio;
-	this->ID = ID;
+	this->ID_student = ID;
 }
 
 Student::~Student()
@@ -21,9 +21,14 @@ void Student::SetFio(FIO fio)
 	this->fio = fio;
 }
 
-void Student::SetId(int ID)
+void Student::SetStudentId(int ID)
 {
-	this->ID;
+	this->ID_student;
+}
+
+void Student::SetSystemId(int ID)
+{
+	this->ID_system = ID;
 }
 
 void Student::AddMark(int mark)
@@ -39,13 +44,19 @@ FIO Student::GetFio()
 
 int Student::GetId()
 {
-	return ID;
+	return ID_student;
+}
+
+int Student::GetSId()
+{
+	return this->ID_system;
 }
 
 void Student::Print()
 {
+	cout << this->ID_system << " ";
 	fio.Print();
-	cout << ID <<":";
+	cout << ID_student <<":";
 	for (int s : Marks)
 		cout << s << " ";
 	cout<<endl;
