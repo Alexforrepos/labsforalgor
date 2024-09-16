@@ -8,6 +8,8 @@ Journal::Journal()
 
 }
 
+
+
 Journal::~Journal()
 {
 	this->Clear();
